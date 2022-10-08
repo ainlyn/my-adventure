@@ -1,5 +1,5 @@
 .portfolio-frame{
-    background: #ffffffa7;
+    background: #ffffff;
     margin: 10%;
     border: 2px #5c7768;
     border-radius: 12px;
@@ -38,14 +38,28 @@
     }
 }
 
-img {
-    max-width: 250px;
+#pic1 {
+    max-width: 200px;
     border-radius: 125%;
     border: solid;
-    border-color: rgb(255, 255, 255);
-    border-width: 20px;
-    margin-inline-start: 15px;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin-inline-start: 30px;
+    margin-top: auto;
+    margin-top: 15px;
     margin-right: 50px;
+    float: left;
+}
+
+#pic2 {
+    max-width: 200px;
+    border-radius: 100%;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    margin-inline-start: -150px;
+    margin-right: 50px;
+    margin-top: 90px;
     float: left;
 }
 
