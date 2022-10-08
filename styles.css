@@ -40,10 +40,13 @@
 
 img {
     max-width: 250px;
-    border: 50px;
-    border-color: black;
-    float: left;
+    border-radius: 125%;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 20px;
+    margin-inline-start: 15px;
     margin-right: 50px;
+    float: left;
 }
 
 p {
