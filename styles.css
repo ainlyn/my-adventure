@@ -1,11 +1,33 @@
+.css-selector {
+    background: linear-gradient(270deg, #ffffff, #c280ee);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 img {
-    width: 200px;
+    max-width: 250px;
+    border: 50px;
+    border-color: black;
+    float: left;
+    margin-right: 50px;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-style: italic;
-    color: #F6C4ED;
+    color: #3a1433;
 }
 .items{
     color: blueviolet;
