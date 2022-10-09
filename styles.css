@@ -39,6 +39,7 @@
 }
 
 .framework{
+    background: rgb(240,205,224);
     border: 9px;
     border: #f6c3ed;
     border-style: dashed;
@@ -46,8 +47,16 @@
     border-radius: 15px;
     margin: 5%;
 }
+.float-container{
+    padding: 10px;
+}
+.float-child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
 
-div.header{
+.header{
     block-size: 185px;
     margin-inline-start: 2%;
     margin-inline-end: 2%;
