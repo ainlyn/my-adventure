@@ -55,6 +55,21 @@
     padding-inline: 20px;
 }
 
+.profile{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: initial;
+    font: small;
+    margin-top: -35px;
+}
+
+#Name{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: #b76ba9;
+}
+
+
 .float-child{
     flex-flow: row;
     flex: auto;
