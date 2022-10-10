@@ -36,10 +36,10 @@
     border-radius: 12px;
     border-left: 10%;
     border-style: solid;
+    padding: 20px;
 }
 
 .framework{
-    background: rgb(240,205,224);
     border: 9px;
     border: #f6c3ed;
     border-style: dashed;
@@ -47,13 +47,12 @@
     border-radius: 15px;
     margin: 5%;
 }
-.float-container{
-    padding: 10px;
-}
+
 .float-child{
     width: 50%;
     float: left;
     padding: 20px;
+    border: 2px;
 }
 
 .header{
