@@ -31,6 +31,7 @@
 
 .portfolio-frame{
     background: rgb(255, 255, 255);
+    display: flex;
     margin: 1%;
     border: 3px #ffffff;
     border-radius: 12px;
@@ -50,44 +51,36 @@
     border-radius: 15px;
     margin: 5%;
     background-color: rgb(240,205,224);
+    padding-block: 10px;
+    padding-inline: 20px;
 }
 
 .float-child{
-    width: 50%;
-    float: left;
+    flex-flow: row;
+    flex: auto;
     padding: 20px;
-    border: 2px;
+    border: 20px;
 }
 
 #pic1 {
-    max-width: 100px;
+    max-width: 200px;
     background: white;
-    border-radius: 50%;
+    border-radius: 15%;
     border: solid;
     border-color: #ffffff;
     border-width: 2px;
-    margin-inline-start: 30px;
     margin-top: auto;
     margin-top: 15px;
     margin-right: 50px;
     float: left;
 }
 
-#pic2 {
-    max-width: 100px;
-    border-radius: 50%;
-    border: solid;
-    border-color: #ffffff;
-    border-width: 1px;
-    margin-inline-start: -100px;
-    margin-right: 50px;
-    margin-top: 70px;
-    float: left;
-}
-
 .About-Me {
     background: white;
-    margin-block: 5%;
+    border-radius: 15px;
+    border-left: 15px;
+    margin: 2%;
+    padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-style: italic;
