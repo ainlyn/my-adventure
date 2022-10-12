@@ -1,34 +1,33 @@
-.css-selector {
-    background: radial-gradient(circle at center, #ffffff, #e1c8ff, #ccffe9);
-    background-size: 400% 400%;
-    -webkit-animation: AnimationName 20s ease infinite;
-    animation: AnimationName 20s ease infinite;
+/* Navigation Bar Design Elements */
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
 }
 
-@-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
+li {
+    display: inline-block;
+    font-family: fantasy;
+    font: optional;
+    font-size: smaller;
+    list-style-type: none;
+  }
 
-@keyframes AnimationName {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
+li a {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    display: block;
+  }
 
+li a:hover {
+    background-color: #b76ba9;
+  }
+
+  /* Body Elements */
 .portfolio-frame{
     background: rgb(255, 255, 255);
     display: flex;
