@@ -15,7 +15,7 @@ li {
     list-style-type: none;
   }
 
-li a{
+li a {
     padding: 10px;
     color: black;
     text-align: center;
@@ -24,17 +24,17 @@ li a{
   }
 
 li a:hover {
-    background-color: #b76ba9;
+    background-color: #ad87a66c;
   }
 
   /* Body Elements */
 
-  body{
+  body {
     margin: 0;
     color: #b76ba9;
   }
 
-.framework{
+.framework {
     background-image: url(https://pbs.twimg.com/media/DjSKaCoXoAExeVm?format=jpg&name=large); 
     background-size: cover;
     -webkit-background-size: cover;
@@ -50,8 +50,8 @@ li a:hover {
     height:100vh;
 }
 
-.portfolio-frame{
-    text-align: center;
+.portfolio-frame {
+    text-align: justify;
     text-decoration: double;
     position: absolute;
     top: 50%;
@@ -62,7 +62,7 @@ li a:hover {
     padding: 5%;
 }
 
-.profile{
+.profile {
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
     font-size: initial;
@@ -74,20 +74,29 @@ li a:hover {
     border: 20px;
 }
 
-.About-Me {
-    border-radius: 15px;
-    border-left: 15px;
-    margin: 2%;
-    padding: 2%;
-    font-family: Arial, Helvetica, sans-serif;
+#about-me {
+    margin: 15%;
+    background-color: white;
+    background-position: center;
+    color: #000000;
+    position: static;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left:0px;
+    height:50vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
+    font-display: block;
     font-style: italic;
-    color: #3a1433;
+    text-align: justify;
+    background-image: url(https://cdn141.picsart.com/333036553015211.png?to=crop&r=1008x1008&q=85);
 }
+
 /* remember to add image to style for list icons */
-ul #items{
-    list-style-image: url("https://drive.google.com/file/d/1-dUsJJ13LBVmDqdWlw-Lpi_qgMHm7Bvk/preview");
-    font-size: small;
+ul#items li {
+    font-size: medium;
     font-style: oblique;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
+    display: block;
 }
