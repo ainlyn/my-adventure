@@ -10,14 +10,13 @@ ul {
 li {
     display: inline-block;
     font-family: fantasy;
-    font: optional;
-    font-size: smaller;
+    font-size: 15px;
     list-style-type: none;
   }
 
 li a {
     padding: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     display: block;
@@ -32,10 +31,11 @@ li a:hover {
   body {
     margin: 0;
     color: #b76ba9;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=101122);
   }
 
 .framework {
-    background-image: url(https://pbs.twimg.com/media/DjSKaCoXoAExeVm?format=jpg&name=large); 
+    background-image: url(https://lh3.googleusercontent.com/aQJJAUwTNF7COUrINRljAUJuSDNMEYWcc4dG9f_kEsXu20_t6nwAeLHSJzeM0nxXbIMQywN2dzN22lK0GcQ_KrTywoFf5amWrj2JtYd0pa7bTJYUMaTd-eCAyAQQws1kjDOenDnzVOhS2bpcsgtQeNbV4bFe_2fuomI4Q7y0bZ-AdaMCM6lmUwnVd3EXaTeQpdj3nI_QYuWdrt63q6tnuMx78RdqwWWYz0uqjQ-XT7kD1g2nEs6g5MisGsEVH9RGrbqe3dtFev6tmhh_lnetJ9S7hniyGoAxgk22arIWKFSf8XVQaf8yjpQiIdox9XXlR-0_-4mYpZmbkc6v3TXc_I8sbFNmPhgXb93SptYOeBTBRri6b9LO8Qw8u1o2DOtdpVTCDamYhqb0W1Ahdkz8_80XTHQi4MPjUTwnfaxE2fpWISIzDppqTOIRA0jxHJUENUAVgj9KCeR1JHHP4rHMHv1cBGKCkyouyR6uOoQTovHcU5uyP3Tq9jpywYVo1Ekn-ZQ23csx84t2-UAs530n1EdPfi_Uf0c1qGrA-XsbTVveFSB6LOR2d9FwOXWwmZgaAj3yH7ztMMZOIiIqwKe1-kPbn9BPGHA5RTA8CCs1oq8KFU7MERAQG9ruffGBCw1XKUVM0wOG9ppz5TsW_fu_pefZfjdfBem1l5HekHxrb10MfpKsg0Uj6ojaFW47oBFMQGacvdbenGAcd6TUWtwzPmsBHIl71zXaYilljYeb5s_hxor09hNvuh3isoKwiJs1hoS5VXix8pMjCjUe4As1x7kczJN4RDvlNmU3Mz8jV1PQoW6xjeF9Yj2mPqUEyP5tYCeFcXOeed9RJYkS3mrdfhiWFkzuvhd3a_Rj3xJUpIrnPIoFNwp9kVyEQFavPqj8yqgcrmBftZBqqhblPYObnoes0nroHa9C3BJfoWvwa3yuKIJhxEETp2UZO9asszfJUrGttgfH5vLOUGcqaoGx3aFKB6bgkQ3Nh1oX5v14C2bVVhoorYVTGpmPrswRUd2RIuyvuWLaIBtqh6rqyFgRtTZ7wmlS3TqQy_334-WR4Fy2zJZoV3RZ81PdoA=w1920-h1080-no?authuser=1); 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -51,33 +51,38 @@ li a:hover {
 }
 
 .portfolio-frame {
-    text-align: justify;
+    text-align: center;
     text-decoration: double;
-    position: absolute;
+    position: static;
     top: 50%;
     left: 75%;
-    transform: translate(0%, -20%);
-    color: black;
-    display: flex;
+    transform: translate(30%, 50%);
+    color: rgb(255, 255, 255);
+    display: block;
     padding: 5%;
 }
 
 .profile {
-    font-family: 'Playfair Display', serif;
-    font-weight: lighter;
-    font-size: initial;
-    font: small;
-    margin-top: -35px;
-    flex-flow: row;
-    flex: auto;
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-size: medium;
+    font-size: 25px;
+    text-align: center;
+    text-overflow: clip;
+    margin-top: 1px;
     padding: 20px;
-    border: 20px;
 }
 
-#about-me {
-    margin: 15%;
-    background-color: white;
-    background-position: center;
+#about-me{
+    background: rgb(244, 211, 211);
+    background-position: static;
+    background-size: cover;
+    height:100vh;
+    padding: 1%;
+}
+
+.About-Me{
+    background-size: cover;
     color: #000000;
     position: static;
     top:0px;
@@ -90,7 +95,11 @@ li a:hover {
     font-display: block;
     font-style: italic;
     text-align: justify;
-    background-image: url(https://cdn141.picsart.com/333036553015211.png?to=crop&r=1008x1008&q=85);
+    position: relative;
+}
+div.About-Me p{
+    margin: 15% 10% 0% 10%;
+
 }
 
 /* remember to add image to style for list icons */
