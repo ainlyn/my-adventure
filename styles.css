@@ -30,7 +30,8 @@ li a:hover {
 
   body {
     margin: 0;
-    color: #b76ba9;
+    color: rgb(156, 186, 226
+);
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=101122);
   }
 
@@ -74,7 +75,7 @@ li a:hover {
 }
 
 #about-me{
-    background: rgb(244, 211, 211);
+    background: rgb(255, 255, 255);
     background-position: static;
     background-size: cover;
     height:100vh;
