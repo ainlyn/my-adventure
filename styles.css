@@ -23,17 +23,15 @@ li a {
   }
 
 li a:hover {
-    background-color: #ad87a66c;
+    color: rgb(18, 70, 118);
   }
 
   /* Body Elements */
 
   body {
     margin: 0;
-    color: rgb(156, 186, 226
-);
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=101122);
-  }
+    color: rgb(156, 186, 226);
+   }
 
 .framework {
     background-image: url(https://iili.io/ZDFdcN.png); 
@@ -57,10 +55,9 @@ li a:hover {
     position: static;
     top: 50%;
     left: 75%;
-    transform: translate(30%, 50%);
+    transform: translate(50%, 30%, 0%);
     color: rgb(255, 255, 255);
     display: block;
-    padding: 5%;
 }
 
 .profile {
@@ -79,7 +76,6 @@ li a:hover {
     background-position: static;
     background-size: cover;
     height:100vh;
-    padding: 1%;
 }
 
 .About-Me{
@@ -98,9 +94,13 @@ li a:hover {
     text-align: justify;
     position: relative;
 }
-div.About-Me p{
-    margin: 15% 10% 0% 10%;
 
+div.About-Me p{
+    margin: 0% 10% 0% 10%;
+}
+
+.About-Me :first-child {
+    margin-top: 20%;
 }
 
 /* remember to add image to style for list icons */
@@ -109,4 +109,23 @@ ul#items li {
     font-style: oblique;
     font-family: sans-serif;
     display: block;
+}
+
+#contact {
+    background: rgb(255, 255, 255);
+    background-position: static;
+    background-size: cover;
+    height:100vh;
+    margin: 20%;
+}
+
+form {
+    grid-area: span;
+    background-size: cover;
+    position: static;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left:0px;
+    height:50vh;
 }
